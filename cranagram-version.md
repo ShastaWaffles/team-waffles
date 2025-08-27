@@ -67,8 +67,8 @@
 
 <div class="latest-version">
   <div class="latest-info">
-    <p class="latest-title">🚀 Latest Version: <span class="version-badge badge-beta">0.4.0-beta.1</span></p>
-    <p class="latest-desc">First public beta — leaderboards and core scramble gameplay are live.</p>
+    <p class="latest-title">🚀 Latest Version: <span class="version-badge badge-beta">0.4.0-beta.2</span></p>
+    <p class="latest-desc">Leaderboard improvements, global scoring changes</p>
   </div>
   <div>
     <p class="latest-desc">Released: 2025-08-27</p>
@@ -93,17 +93,7 @@
     <tr>
       <td><span class="version-badge badge-beta">0.4.0-beta.2</span></td>
       <td>2025-09-??</td>
-      <td>Bug fixes and small balance tweaks to the scoring system.</td>
-    </tr>
-    <tr>
-      <td><span class="version-badge badge-beta">0.4.0-beta.3</span></td>
-      <td>upcoming</td>
-      <td>UI polish (better banners, icons, smoother activity start flow).</td>
-    </tr>
-    <tr>
-      <td><span class="version-badge badge-beta">0.4.0-beta.4</span></td>
-      <td>upcoming</td>
-      <td>Stability updates + improved leaderboard storage backend.</td>
+      <td>Bug fixes and small balance tweaks to the scoring system. Global scoring and leaderboard updates.</td>
     </tr>
   </tbody>
 </table>
