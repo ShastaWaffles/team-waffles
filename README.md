@@ -156,7 +156,6 @@
   margin-bottom: 20px;
 ">
 
-  <a href="index.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Team Home</a>
   <a href="" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">📜 Contact</a>
 
 </div>
