@@ -1,5 +1,41 @@
- <a href="index.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Team Home</a>
- 
+<style>
+  .team-home {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .team-home a {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #5865F2; /* Discord blurple */
+    color: #fff;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: background 0.2s ease, transform 0.1s ease;
+  }
+  .team-home a:hover {
+    background: #4752C4;
+    transform: translateY(-1px);
+  }
+</style>
+
+<!-- Team Home Button -->
+<div class="team-home">
+  <a href="/index.html">⬅️ Team Home</a>
+</div>
+
+<!-- Your Cranagram Logo -->
+<div style="text-align:center;">
+  <img src="assets/cranagram-logo.png" alt="Cranagram Logo" width="160">
+</div>
+
+
+<div class="team-home">
+  <a href="/index.html">⬅️ Team Home</a>
+</div>
+
 ![Cranagram](cranagram-banner.png)
 
 <div style="
