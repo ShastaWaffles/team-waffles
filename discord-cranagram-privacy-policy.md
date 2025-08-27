@@ -1,0 +1,1 @@
+# Discord Cranagram - Privacy Policy 
