@@ -1,3 +1,5 @@
+![Cranagram Banner](cranagram-banner.png)
+
 # Cranagram The Discord Activity – Terms of Service
 **Last Updated:** August 2025
 
