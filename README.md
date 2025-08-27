@@ -160,6 +160,8 @@
 
 </div>
 
+<iframe src="https://discord.com/widget?id=734547551931596961&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 # About
 - Team Waffles is currently a solo development team that is operated by @ShastaWaffles (Github) / @wafflesaresomething (Discord)
 
