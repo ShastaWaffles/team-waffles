@@ -1,5 +1,6 @@
-![Cranagram Banner](cranagram-banner.png)
-
+ <a href="index.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Team Home</a>
+ 
+![Cranagram](cranagram-banner.png)
 
 <div style="
   background-color:#2c2f33;
@@ -11,11 +12,14 @@
   margin-bottom: 20px;
 ">
 
-  <a href="index.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Team Home</a>
+  <a href="cranagram.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Cranagram Home</a>
   <a href="cranagram-privacy.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">📜 Privacy Policy</a>
   <a href="cranagram-tos.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">⚖️ Terms of Service</a>
+  <a href="cranagram-version.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">Version History</a>
+
 
 </div>
+
 
 # Cranagram The Discord Activity – Terms of Service
 **Last Updated:** August 2025
