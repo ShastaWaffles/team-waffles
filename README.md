@@ -60,14 +60,80 @@
     top: 10px; right: 14px;
     display: flex; gap: 6px; flex-wrap: wrap;
   }
-  .project-badge {
-    font: 600 11px/1 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-    padding: 4px 8px; border-radius: 999px;
-    background: #5865F2; color: #fff; white-space: nowrap;
-  }
-  .badge-green { background:#43B581; }
-  .badge-red   { background:#F04747; }
-  .badge-gray  { background:#747F8D; }
+ /* Base badge */
+.project-badge { 
+  font: 600 11px/1 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: #fff;
+  white-space: nowrap;
+  background: #5865F2; /* fallback */
+  background-size: 200% 200%;
+  transition: background-position 0.3s ease;
+}
+.project-badge:hover {
+  background-position: right center; /* animate gradient on hover */
+}
+
+/* Gradient variants */
+.badge-blue {
+  background: linear-gradient(135deg, #5865F2, #4752C4);
+}
+.badge-green {
+  background: linear-gradient(135deg, #43B581, #2E8B57);
+}
+.badge-red {
+  background: linear-gradient(135deg, #F04747, #C0392B);
+}
+.badge-gray {
+  background: linear-gradient(135deg, #747F8D, #4F545C);
+}
+.badge-yellow {
+  background: linear-gradient(135deg, #FAA61A, #E67E22);
+}
+.badge-orange {
+  background: linear-gradient(135deg, #F26522, #D35400);
+}
+.badge-purple {
+  background: linear-gradient(135deg, #9B59B6, #6D3C91);
+}
+.badge-pink {
+  background: linear-gradient(135deg, #E91E63, #C2185B);
+}
+.badge-teal {
+  background: linear-gradient(135deg, #1ABC9C, #148F77);
+}
+.badge-black {
+  background: linear-gradient(135deg, #23272A, #0D0D0D);
+  color: #fff;
+}
+.badge-white {
+  background: linear-gradient(135deg, #ffffff, #f3f4f6);
+  color: #111827;
+  border: 1px solid #ddd;
+}
+
+/* External link icon — always visible */
+.project-link-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 14px;
+  width: 14px;
+  height: 14px;
+  opacity: 1;                 /* <- always visible */
+  fill: currentColor;
+  color: #c9d1d9;             /* dark theme */
+  transition: transform 0.2s ease;
+}
+.project-card:hover .project-link-icon {
+  transform: translateY(-1px);
+}
+
+/* Light mode color */
+@media (prefers-color-scheme: light) {
+  .project-link-icon { color: #6b7280; } /* slate-500 */
+}
+
 
   /* Light mode adjustments */
   @media (prefers-color-scheme: light) {
@@ -108,9 +174,14 @@
       <p class="project-desc">Unscramble the words! New words to unscramble every 12 hours for fresh fun. This is the Discord activity that has Cranagram.com integrated within, with some extra fun features such as leaderboards, so you can show your friends how much of a nerd you are! Show your friends how fast you can unscramble these words! </p>
     </div>
     <div class="project-badges">
-      <span class="project-badge">Discord</span>
+      <span class="project-badge badge-blue">Discord</span>
       <span class="project-badge badge-gray">Development</span>
     </div>
+      <svg class="project-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3zM5 5h5V3H5c-1.1 
+    0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 
+    2-2v-5h-2v5H5V5z"/>
+  </svg>
   </a>
 
 </div>
