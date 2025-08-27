@@ -1,10 +1,15 @@
 <style>
-  .projects {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 14px;
-    margin-top: 16px;
-  }
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-top: 16px;
+
+  /* expand wider */
+  max-width: 1000px;   /* choose your width */
+  margin-left: auto;
+  margin-right: auto;
+}
   @media (min-width: 700px) {
     .projects { grid-template-columns: 1fr 1fr; }
   }
