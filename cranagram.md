@@ -1,7 +1,7 @@
 ![Cranagram](cranagram-banner.png)
 # Cranagram - The Discord Activity 
 
-<div style="display: flex; gap: 20px; margin-top: 20px;">
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
 
   <a href="cranagram-privacy.html" style="
     display:inline-block;
