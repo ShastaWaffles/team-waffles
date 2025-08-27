@@ -6,10 +6,11 @@
     margin-top: 16px;
   }
   @media (min-width: 700px) {
-    .projects { grid-template-columns: 1fr 1fr; } /* 2 columns on desktop */
+    .projects { grid-template-columns: 1fr 1fr; }
   }
 
   .project-card {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 14px;
@@ -38,7 +39,7 @@
   .project-text {
     display: grid;
     gap: 4px;
-    min-width: 0; /* allows text truncation */
+    min-width: 0;
   }
   .project-title {
     font: 700 16px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -54,7 +55,28 @@
     margin: 0;
   }
 
-  /* Light mode fallback */
+  /* 🔹 Badges */
+  .project-badges {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .project-badge {
+    font: 600 11px/1 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: #5865F2;
+    color: white;
+    white-space: nowrap;
+  }
+  .badge-green { background:#43B581; }
+  .badge-red   { background:#F04747; }
+  .badge-gray  { background:#747F8D; }
+
+  /* Light mode */
   @media (prefers-color-scheme: light) {
     .project-card { background:#fff; border-color:#e5e7eb; }
     .project-card:hover { border-color:#d1d5db; box-shadow:0 6px 18px rgba(0,0,0,.08); }
@@ -90,6 +112,10 @@
     <div class="project-text">
       <h3 class="project-title">Cranagram - The Discord Activity</h3>
       <p class="project-desc">Unscramble the words! New words to unscramble every 12 hours for fresh fun. This is the Discord activity that has Cranagram.com integrated within, with some extra fun features such as leaderboards, so you can show your friends how much of a nerd you are! Show your friends how fast you can unscramble these words! </p>
+    </div>
+    <div class="project-badges">
+      <span class="project-badge">Discord</span>
+      <span class="project-badge badge-gray">Development</span>
     </div>
   </a>
 
