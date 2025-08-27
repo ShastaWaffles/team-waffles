@@ -1,9 +1,10 @@
 <style>
   /* Section wrapper: wider than the theme’s default content width */
-  .projects-wrap {
-    width: min(95vw, 1000px);   /* tweak 950–1200px to taste */
-    margin: 24px auto;          /* center the section */
-  }
+.projects-wrap {
+  width: min(95vw, 1000px);  /* expand up to 1000px or 95% of viewport */
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .projects-grid {
     display: grid;
@@ -48,6 +49,7 @@
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
   .project-desc {
+    max-width: 80ch; /* keeps text readable */
     font: 400 14px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     color: #c9d1d9; margin: 0;
   }
@@ -97,7 +99,7 @@
 - Team Waffles is currently a solo development team that is operated by @ShastaWaffles (Github) / @wafflesaresomething (Discord)
 
 # Projects
-<div class="projects">
+<div class="projects-wrap">
 
   <a class="project-card" href="cranagram.html" aria-label="Open Cranagram project">
     <img class="project-icon" src="cranagram-squared.png" alt="Cranagram icon">
