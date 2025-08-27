@@ -176,7 +176,7 @@
     <div class="project-badges">
       <span class="project-badge badge-blue">Discord App</span>
       <span class="project-badge badge-gray">In Development</span>
-      <span class="project-badge badge-yellow">v0.4.0-beta.1</span>
+      <span class="project-badge badge-yellow">v0.4.0-beta.2</span>
     </div>
       <svg class="project-link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3zM5 5h5V3H5c-1.1 
