@@ -22,7 +22,7 @@
 </style>
 
 <div class="team-home">
-  <a href="/index.html">⬅️ Team Home</a>
+  <a href="/team-waffles/">⬅️ Team Home</a>
 </div>
 
 ![Cranagram](cranagram-banner.png)
