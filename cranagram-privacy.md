@@ -1,3 +1,5 @@
+![Cranagram Banner](cranagram-banner.png)
+
 # Cranagram The Disord Activity - Privacy Policy 
 **Last Updated:** August 2025
 
