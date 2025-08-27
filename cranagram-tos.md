@@ -21,20 +21,11 @@
   }
 </style>
 
-<!-- Team Home Button -->
-<div class="team-home">
-  <a href="/index.html">⬅️ Team Home</a>
-</div>
-
-<!-- Your Cranagram Logo -->
-<div style="text-align:center;">
-  <img src="assets/cranagram-logo.png" alt="Cranagram Logo" width="160">
-</div>
-
 
 <div class="team-home">
-  <a href="/index.html">⬅️ Team Home</a>
+  <a href="/team-waffles/">⬅️ Team Home</a>
 </div>
+
 
 ![Cranagram](cranagram-banner.png)
 
