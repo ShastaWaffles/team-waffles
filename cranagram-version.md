@@ -86,8 +86,9 @@
 </style>
 
 <div class="team-home">
-  <a href="index.html">⬅️ Team Home</a>
-</div> 
+  <a href="/team-waffles/">⬅️ Team Home</a>
+</div>
+
 
 ![Cranagram](cranagram-banner.png)
 
