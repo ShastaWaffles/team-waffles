@@ -1,7 +1,7 @@
 <style>
   /* Section wrapper: wider than the theme’s default content width */
   .projects-wrap {
-    width: min(95vw, 1100px);   /* tweak 950–1200px to taste */
+    width: min(95vw, 1000px);   /* tweak 950–1200px to taste */
     margin: 24px auto;          /* center the section */
   }
 
