@@ -1,9 +1,8 @@
 <style>
   /* Section wrapper: wider than the theme’s default content width */
 .projects-wrap {
-  width: min(95vw, 1000px);  /* expand up to 1000px or 95% of viewport */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;     /* never exceed parent width */
+  margin: 0 auto;      /* keep centered */
 }
 
   .projects-grid {
@@ -16,6 +15,7 @@
   }
 
   .project-card {
+    box-sizing: border-box;
     position: relative;
     display: flex;
     align-items: center;
