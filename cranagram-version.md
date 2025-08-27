@@ -65,6 +65,29 @@
   }
 </style>
 
+ <a href="index.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Team Home</a>
+ 
+![Cranagram](cranagram-banner.png)
+
+<div style="
+  background-color:#2c2f33;
+  padding: 12px;
+  display:flex;
+  justify-content:center;
+  gap: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+">
+
+  <a href="cranagram.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Cranagram Home</a>
+  <a href="cranagram-privacy.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">📜 Privacy Policy</a>
+  <a href="cranagram-tos.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">⚖️ Terms of Service</a>
+  <a href="cranagram-version.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">Version History</a>
+
+
+</div>
+
+
 <div class="latest-version">
   <div class="latest-info">
     <p class="latest-title">🚀 Latest Version: <span class="version-badge badge-beta">0.4.0-beta.2</span></p>
