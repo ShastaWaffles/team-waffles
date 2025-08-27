@@ -1,4 +1,4 @@
-# Team Waffles
+# About
 - Team Waffles is currently a solo development team that is operated by @ShastaWaffles (Github) / @wafflesaresomething (Discord)
 
 # Projects
