@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.5.3-Beta] - 2024-12-27
+## [0.5.3-Beta] - 2025-12-27
 
 ### Added
 - `/api/status` endpoint to check if user has already solved a puzzle globally (across all guilds)
@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.5.2-Beta] - 2024-08-25
+## [0.5.2-Beta] - 2025-08-25
 
 ### Added
 - Enhanced error handling for API failures
@@ -39,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.5.1] - 2024-08-25
+## [0.5.1] - 2025-08-25
 
 ### Added
 - Solution word tracking in database (`solution_word` column)
@@ -53,7 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.5.0] - 2024-08-25
+## [0.5.0] - 2025-08-25
 
 ### Added
 - Reset countdown timer showing time until next puzzle (12-hour intervals at UTC noon/midnight)
@@ -80,7 +80,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.4.0] - 2024-08-25
+## [0.4.0] - 2025-08-25
 
 ### Added
 - Guess history system with localStorage persistence
@@ -104,7 +104,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.3.0] - 2024-08-25
+## [0.3.0] - 2025-08-25
 
 ### Added
 - Timer system with millisecond precision
@@ -132,7 +132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.2.0] - 2024-08-25
+## [0.2.0] - 2025-08-25
 
 ### Added
 - Per-guild leaderboard system
@@ -155,7 +155,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.1.0] - 2024-08-24
+## [0.1.0] - 2025-08-24
 
 ### Added
 - Initial Discord Activity integration
