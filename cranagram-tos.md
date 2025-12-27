@@ -49,22 +49,55 @@
 
 
 # Cranagram The Discord Activity – Terms of Service
-**Last Updated:** August 2025
+**Last Updated: December 2025**
 
-By using Cranagram, you agree to the following terms:
+By using Cranagram The Discord Activity ("Cranagram," "the app," "we," "our," "us"), you agree to the following terms:
 
 ## 1. Eligibility
-- You must comply with Discord’s [Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines).  
+- You must be at least 13 years old (or the minimum age required in your jurisdiction).
+- You must comply with Discord's [Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines).
+- You must have permission to use Discord Activities in your server.
 
 ## 2. Use of the App
-- Cranagram is provided “as is” with no guarantee of uninterrupted service.  
-- You agree not to misuse the app (e.g., spamming, exploiting bugs, or using it for harmful activity).  
+- Cranagram is provided "as is" with no guarantee of uninterrupted or error-free service.
+- You agree not to misuse the app, including but not limited to:
+  - Spamming or flooding the service
+  - Exploiting bugs or vulnerabilities
+  - Using automated tools or scripts to gain unfair advantages
+  - Attempting to reverse engineer or interfere with the app's functionality
+  - Using the app for any illegal or harmful activity
+- You are responsible for your use of the app and any content you submit.
 
-## 3. Termination
-- We reserve the right to restrict or remove access to the app if users abuse it or violate Discord’s rules.  
+## 3. Intellectual Property
+- Cranagram integrates with cranagram.com's puzzle service. Puzzle content is provided by cranagram.com.
+- The app's code and functionality are the property of the developers.
+- Discord's services and APIs are subject to Discord's terms and policies.
 
-## 4. Limitation of Liability
-- Cranagram is a free tool; we are not liable for damages, data loss, or disruptions caused by use of the app.  
+## 4. Termination
+- We reserve the right to restrict, suspend, or remove access to the app at any time if users:
+  - Violate these Terms of Service
+  - Violate Discord's Terms of Service or Community Guidelines
+  - Abuse or misuse the app
+  - Engage in harmful or disruptive behavior
+- You may stop using the app at any time by removing it from your server.
 
-## 5. Contact
-If you have questions about these terms, you can reach out to: **@wafflesaresomething** on Discord. 
+## 5. Limitation of Liability
+- Cranagram is provided free of charge.
+- We are not liable for any damages, data loss, service disruptions, or other issues arising from:
+  - Use or inability to use the app
+  - Errors, bugs, or technical issues
+  - Third-party service dependencies (Discord, cranagram.com)
+  - Unauthorized access or data breaches
+- The app is provided "as is" without warranties of any kind.
+
+## 6. Changes to Terms
+- We may update these Terms of Service from time to time.
+- Continued use of Cranagram after changes constitutes acceptance of the updated terms.
+- We will indicate the "Last Updated" date at the top of this document.
+
+## 7. Contact
+If you have questions about these terms, you can reach out to: **@wafflesaresomething** on Discord.
+
+---
+
+*These terms are subject to Discord's Terms of Service and Developer Policy. By using Cranagram, you also agree to comply with Discord's applicable terms.*
