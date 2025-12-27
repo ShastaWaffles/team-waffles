@@ -1,3 +1,29 @@
+<div class="team-home">
+  <a href="/team-waffles/">⬅️ Team Home</a>
+</div>
+
+
+![Cranagram](cranagram-banner.png)
+
+<div style="
+  background-color:#2c2f33;
+  padding: 12px;
+  display:flex;
+  justify-content:center;
+  gap: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+">
+
+  <a href="cranagram.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">🏠 Cranagram Home</a>
+  <a href="cranagram-privacy.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">📜 Privacy Policy</a>
+  <a href="cranagram-tos.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">⚖️ Terms of Service</a>
+  <a href="cranagram-version.html" style="color:white; text-decoration:none; font-weight:bold; font-family:Arial, sans-serif;">Version History</a>
+
+
+</div>
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -181,4 +207,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Database: SQLite (better-sqlite3)
 - Authentication: Discord OAuth2
 - API Integration: cranagram.com REST API
+
 
