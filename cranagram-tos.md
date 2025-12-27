@@ -68,12 +68,21 @@ By using Cranagram The Discord Activity ("Cranagram," "the app," "we," "our," "u
   - Using the app for any illegal or harmful activity
 - You are responsible for your use of the app and any content you submit.
 
-## 3. Intellectual Property
+## 3. Bot Features and Moderation
+- Cranagram includes Discord bot functionality that provides:
+  - Slash commands for diagnostics and maintenance (`/cran_diag`, `/cran_prune`)
+  - Automatic card management to prevent channel spam
+  - Invite management to keep channels organized
+- The bot may automatically delete duplicate invite cards and manage activity invites to maintain a clean user experience.
+- Administrators have access to moderation tools and announcement management features.
+- Bot actions are performed in accordance with Discord's API guidelines and server permissions.
+
+## 4. Intellectual Property
 - Cranagram integrates with cranagram.com's puzzle service. Puzzle content is provided by cranagram.com.
 - The app's code and functionality are the property of the developers.
 - Discord's services and APIs are subject to Discord's terms and policies.
 
-## 4. Termination
+## 5. Termination
 - We reserve the right to restrict, suspend, or remove access to the app at any time if users:
   - Violate these Terms of Service
   - Violate Discord's Terms of Service or Community Guidelines
@@ -81,7 +90,7 @@ By using Cranagram The Discord Activity ("Cranagram," "the app," "we," "our," "u
   - Engage in harmful or disruptive behavior
 - You may stop using the app at any time by removing it from your server.
 
-## 5. Limitation of Liability
+## 6. Limitation of Liability
 - Cranagram is provided free of charge.
 - We are not liable for any damages, data loss, service disruptions, or other issues arising from:
   - Use or inability to use the app
@@ -90,14 +99,16 @@ By using Cranagram The Discord Activity ("Cranagram," "the app," "we," "our," "u
   - Unauthorized access or data breaches
 - The app is provided "as is" without warranties of any kind.
 
-## 6. Changes to Terms
+## 7. Changes to Terms
 - We may update these Terms of Service from time to time.
 - Continued use of Cranagram after changes constitutes acceptance of the updated terms.
 - We will indicate the "Last Updated" date at the top of this document.
 
-## 7. Contact
+## 8. Contact
 If you have questions about these terms, you can reach out to: **@wafflesaresomething** on Discord.
 
 ---
 
 *These terms are subject to Discord's Terms of Service and Developer Policy. By using Cranagram, you also agree to comply with Discord's applicable terms.*
+
+
